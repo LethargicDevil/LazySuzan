@@ -33,7 +33,7 @@ show_menu(){
     FGRED=`echo "\033[41m"`
     RED_TEXT=`echo "\033[31m"`
     ENTER_LINE=`echo "\033[33m"` 
-    echo -e "${green_color}*************************************************************************${NORMAL}"
+    echo -e "${green_color}________________________________________________________________________________${NORMAL}"
     echo -e "${green_color}                __________________${MENU}LazySuzan Nightly Buildv0.1 "
     echo -e "${green_color}               /\                 \\ ${color_yellow}Automated Attacks "
     echo -e "${green_color}              /  \\_________________\\"
@@ -61,7 +61,7 @@ show_menu(){
     echo -e "${green_color} /=--------------=\\"                   
     echo -e "${green_color}/                  \\"
     echo -e "${green_color}|     ER-280562    |"" ${NUMBER}Words build bridges into unexplored regions."
-    echo -e "${green_cyan}${MENU}******************************************************************************"
+    echo -e "${green_cyan}${MENU}______________________________________________________________________________________"
     echo -e "${green_color}${ENTER_LINE}Select a menu option${RED_TEXT}[enter] to exit. ${NORMAL}"
     read opt
 }
